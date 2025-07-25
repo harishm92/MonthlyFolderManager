@@ -61,11 +61,12 @@ The executable will be in `dist/` (Windows `.exe`, Linux/macOS without extension
 ```
 MonthlyFolderManager/
 ├── MonthlyFolderManager.py     # main script
-├── MonthlyFolderManager.exe    # main script
+├── MonthlyFolderManager.exe    # WINDOWS standalone executable
 ├── requirements.txt            # runtime deps
 ├── LICENSE                     # MIT License
-├── README.md                   # this file
-└── .gitignore                  # ignores venvs, build artefacts, etc.
+├── README-WINDOWS.md           # this file
+├── README-LINUX-MACOS.md       # steps for linux & macOS
+└── README.md                   # Main README.md file
 ```
 
 ## Contributing
