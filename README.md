@@ -16,8 +16,8 @@ A cross-platform command-line utility that creates year-specific month folders (
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-user>/monthly-folder-manager.git
-cd monthly-folder-manager
+gh repo clone harishm92/MonthlyFolderManager
+cd MonthlyFolderManager
 ```
 
 ### 2. Create virtual environment (recommended)
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## Usage
 ```bash
-python monthly_folder_manager.py
+python MonthlyFolderManager.py
 ```
 Follow the on-screen prompts:
 1. Enter the base directory for `(MM)Mon-YEAR` folders.
@@ -49,14 +49,14 @@ Follow the on-screen prompts:
 Generate single-file binaries with **PyInstaller**:
 ```bash
 pip install pyinstaller
-pyinstaller --onefile --hidden-import=prettytable --name "MonthlyFolderManager" monthly_folder_manager.py
+pyinstaller --onefile --hidden-import=prettytable --name "MonthlyFolderManager" MonthlyFolderManager.py
 ```
 The executable will be in `dist/` (Windows `.exe`, Linux/macOS without extension).
 
 ## Project Structure
 ```
-monthly-folder-manager/
-├── monthly_folder_manager.py   # main script
+MonthlyFolderManager/
+├── MonthlyFolderManager.py     # main script
 ├── requirements.txt            # runtime deps
 ├── LICENSE                     # MIT License
 ├── README.md                   # this file
@@ -75,7 +75,7 @@ Pull requests are welcome! Please open an issue first to discuss major changes.
 This project is licensed under the MIT License – see the `LICENSE` file for details.
 
 ## Attribution
-Built with the assistance of Perplexity AI’s chat assistant. If you wish to credit the AI, add a line like:
-> "Documentation and feature planning supported by Perplexity AI ChatGPT-style assistant."
+Built with the assistance of Perplexity AI’s chat assistant.
+"Documentation and feature planning supported by Perplexity AI ChatGPT-style assistant."
 
 Attribution is optional – the MIT License allows reuse without credit – but a note of thanks is always appreciated!
