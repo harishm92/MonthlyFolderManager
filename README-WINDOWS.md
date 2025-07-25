@@ -16,7 +16,7 @@ A cross-platform command-line utility that creates year-specific month folders (
 
 ### 1. Clone the repository
 ```bash
-gh repo clone harishm92/MonthlyFolderManager
+git clone https://github.com/harishm92/MonthlyFolderManager.git
 cd MonthlyFolderManager
 ```
 
