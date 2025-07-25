@@ -64,9 +64,9 @@ MonthlyFolderManager/
 ├── MonthlyFolderManager.exe    # WINDOWS standalone executable
 ├── requirements.txt            # runtime deps
 ├── LICENSE                     # MIT License
-├── README-WINDOWS.md           # this file
+├── README-WINDOWS.md           # for WINDOWS
 ├── README-LINUX-MACOS.md       # steps for linux & macOS
-└── README.md                   # Main README.md file
+└── README.md                   # this file
 ```
 
 ## Contributing
