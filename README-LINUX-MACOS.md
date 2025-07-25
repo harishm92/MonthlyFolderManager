@@ -28,7 +28,7 @@ cd MonthlyFolderManager
 2. **Create the single-file executable**
 
 ```bash
-pyinstaller --onefile monthly_folder_manager.py \
+pyinstaller --onefile MonthlyFolderManager.py \
             --name MonthlyFolderManager
 ```
 
