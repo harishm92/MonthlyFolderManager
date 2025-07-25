@@ -57,6 +57,7 @@ The executable will be in `dist/` (Windows `.exe`, Linux/macOS without extension
 ```
 MonthlyFolderManager/
 ├── MonthlyFolderManager.py     # main script
+├── MonthlyFolderManager.exe    # main script
 ├── requirements.txt            # runtime deps
 ├── LICENSE                     # MIT License
 ├── README.md                   # this file
